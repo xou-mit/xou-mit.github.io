@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Xiaowei
-middle_name: blank
+middle_name: 
 last_name: Ou
 email: xwou@mit.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -283,8 +283,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Ou]
+  first_name: [Xiaowei]
 
   style: apa
   locale: en
