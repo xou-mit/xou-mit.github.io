@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - xou-mit
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - xou-mit/ananke_dr3
+  - xou-mit/hdbscan_robust_clustering
+  - xou-mit/spec_infer_parallax
