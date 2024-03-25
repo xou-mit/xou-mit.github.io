@@ -1,81 +1,40 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: The Milky Way Circular Velocity Curve with Gaia DR3
+description: An unexpected decline in the Milky Way's circular velocity curve at the outer edge of the disk
+img: assets/img/vcirc_model.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The rotation/circular velocity curve of a disc galaxy represents how fast an object would move at a given radial distance from the centre of the galaxy, assuming it is in a perfectly circular orbit. 
+It has long been used within our Galaxy to constrain the Milky Way mass and mass distribution. 
+The circular velocity curve is typically measured using the kinematics of stars, gas, and other tracers in the disk. 
+In this project, we use the third data release from the Gaia mission to measure the circular velocity curve of the Milky Way using stars as tracers. 
+We find that the circular velocity curve declines at the outer edge of the disk, which is unexpected and has important implications for the dark matter distribution of the Milky Way.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/vcirc_model.png" title="MW circular velocity curve with best fit models" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Comparison between the circular velocity curve measured from Eilers et al. (2019) (black) and this work (red). The best-fitting Einasto DM profile, with the baryonic model from de Salas et al. (2019), is also shown here.
 </div>
+
+The curve and the best-fit model indicates that the Milky Way may have a potentially cored dark matter halo, and an overall less massive total dark matter halo mass.
+We stress that the cored profile and virial mass estimate are extrapolations from our measurements.
+Future observations may help alleviate the need for an assumed functional form and directly bridge the gap between the circular velocity curve and satellite/stream results by providing stellar kinematics at overlapping R. 
+Testing the different methodologies on simulations will also help identify potential systematic uncertainties between them.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/vcirc_compare.png" title="MW circular velocity curve in comparison with previous measurements" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Best-fitting model circular velocity curve (red curve) using the Einasto profile with circular velocity measurements from this study and previous literature values.
 </div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
 {% endraw %}
