@@ -36,5 +36,3 @@ Testing the different methodologies on simulations will also help identify poten
 <div class="caption">
     Best-fitting model circular velocity curve (red curve) using the Einasto profile with circular velocity measurements from this study and previous literature values.
 </div>
-
-{% endraw %}
