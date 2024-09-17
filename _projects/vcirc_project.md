@@ -4,7 +4,7 @@ title: The Milky Way Circular Velocity Curve with Gaia DR3
 description: An unexpected decline in the Milky Way's circular velocity curve at the outer edge of the disk
 img: assets/img/vcirc_model.png
 importance: 1
-category: work
+category: Dynamics
 related_publications: true
 ---
 
