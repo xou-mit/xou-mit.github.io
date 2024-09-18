@@ -2,7 +2,7 @@
 layout: page
 title: The rise of the r-process in the Milky Way and its dwarf satellites
 description: We look at stars to search for clues on the creation of some of the heaviest elements in the Universe.
-img: assets/img/vcirc_model.png
+img: assets/img/rise_in_gse.png
 importance: 1
 category: Chemistry
 related_publications: true
