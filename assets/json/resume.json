@@ -3,16 +3,16 @@
     "name": "Xiaowei Ou",
     "label": "Astronomer in training",
     "image": "",
-    "email": "xwou@mit.edu",
-    "phone": "(617) 324-1820",
+    "email": "xwou@virginia.edu",
+    "phone": "(434) 924-3800",
     "url": "https://xwou-mit.github.io/",
-    "summary": "A graduate student at MIT, working on stars in the Milky Way.",
+    "summary": "A postdoctoral fellow at University of Virginia and NSF-Simons AI Institute for Cosmic Origins.",
     "location": {
-      "address": "70 Vassar St",
-      "postalCode": "MA 02139",
-      "city": "Cambridge",
+      "address": "530 McCormick Rd",
+      "postalCode": "VA 22904",
+      "city": "Charlottesville",
       "countryCode": "US",
-      "region": "Massachusetts"
+      "region": "Virginia"
     },
     "profiles": [
       {
@@ -24,12 +24,12 @@
   },
   "work": [
     {
-      "name": "Department of Physics, MIT",
-      "position": "Graduate Research Assistant",
-      "url": "https://www.space.mit.edu/people/xiaowei-ou/",
-      "startDate": "2020-09-01",
+      "name": "Department of Astronomy, University of Virginia",
+      "position": "Postdoctoral Fellow",
+      "url": "https://www.cosmicai.org/team",
+      "startDate": "2025-08-01",
       "endDate": "Current",
-      "summary": "Working on stars in the Milky Way with Professors Anna Frebel and Lina Necib."
+      "summary": "Working on combining simulations and observations through synthetic surveys, and using machine learning to study the Galaxy."
     }
   ],
   "education": [
@@ -68,11 +68,11 @@
       "summary": "Working with collaborators, I adapted the code base ananke to build a Gaia DR3 synthetic survey."
     },
     {
-      "name": "The Rise of the R-Process in the Gaia-Sausage/Enceladus Dwarf Galaxy",
-      "publisher": "MNRAS",
-      "releaseDate": "2024-09",
-      "url": "https://academic.oup.com/mnras/article/521/2/2623/7074579",
-      "summary": "We established the existence of delayed r-process enrichment from a clear rise of r-process element abundance in the disrupted dwarf GSE."
+      "name": "Early r-process Enrichment and Hierarchical Assembly Across the Sagittarius Dwarf Galaxy",
+      "publisher": "AJ",
+      "releaseDate": "2025-05",
+      "url": "https://ui.adsabs.harvard.edu/abs/2025AJ....169..279O",
+      "summary": "We established the existence of early r-process enrichment in the Sagittarius dwarf galaxy, and found that the galaxy is assembled with a non-negligible contribution from ultra-faint satellites."
     }
   ]
 }

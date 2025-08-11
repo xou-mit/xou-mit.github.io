@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://space.mit.edu/people/ou-xiaowei/'>Department of Physics and MIT Kavli Institute for Astrophysics and Space Research</a>. 
+subtitle: <a href='https://www.cosmicai.org/team'>Department of Astronomy, University of Virginia and NSF-Simons AI Institute for Cosmic Origins</a>. 
 
 profile:
   align: right
@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
 
 Hello there! 
 
-I am an observational astronomer in training. My work at MIT focuses on studying the Galaxy using stellar kinematics and chemistry as a student co-advised by Professors Lina Necib and Anna Frebel. Working with Professor Lina Necib, I study the formation history and global properties of the Milky Way (MW) using observational data from large public surveys like Gaia. With Professor Anna Frebel, I use high-resolution stellar spectroscopy to study the chemical evolution and morphology of individual components in the Galaxy. My work tackles the Galaxy from multiple angles and compares observation with simulation.
+I am Xiaowei Ou, an theoretical and observational astronomer at the University of Virginia. I am a Galaxy Evolution and Cosmology Initiative & NSF-Simons AI Institute for Cosmic Origins Postdoctoral Fellow. I graduated from MIT in 2025, with my thesis work focusing on studying the Galaxy using stellar kinematics and chemistry, co-advised by Professors Lina Necib and Anna Frebel. I study the formation history and dark matter distribution of the Milky Way (MW) using observational data from large public surveys like Gaia, as well as hydrodynamical simulations, bridging the gap between observation and simulation with synthetic surveys. I also use high-resolution stellar spectroscopy to study the heavy element enrichment and evolution in the Galaxy. I am especially excited about the intersection of machine learning and big data in astronomy, and I am currently working on using machine learning to study the Galaxy.
