@@ -9,9 +9,8 @@ profile:
   image: bio_pic1.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>37-676A</p>
-    <p>70 Vassar St</p>
-    <p>Cambridge, MA 02139</p>
+    <p>530 McCormick Rd</p>
+    <p>Charlottesville, VA 22904</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
